@@ -59,10 +59,11 @@
                 //Object-->2D Array
 
                 Globalcompany2.company.forEach(rank => {
+                    console.log(rank)
                     let values = Object.values(rank);
                     Globalcompany2dArray.push(values);
                 });
-
+                console.log(Globalcompany2dArray)
                 CreateTbody(Globalcompany2dArray);
 
 
